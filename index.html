@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Quote Engine</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Gloria+Hallelujah" rel="stylesheet">
+		
+<body>
+	<div class="container">
+		<div class="wrapper text-center" id="wrapperId">
+			<div>
+				<h1>Choose the number of Quotes and type you would like</h1>
+				<label for="quote">Type of Quotes :</label>
+				Animal:  <input name="subject" type="radio" value="animal">
+				Philosophy:  <input name="subject" type="radio" value="philosophy"><br/>
+
+				<label for="number">Number of Quotes:</label>
+				<input type="text" id="count"/><br/>
+					<button onclick="showQuotes()">Generate Quote</button>
+					
+			</div>
+			<div id="quotes"></div>
+			
+		</div>
+	</div>
+<script src="js/main.js"></script>
+</body>
+</html>

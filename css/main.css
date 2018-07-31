@@ -1,0 +1,37 @@
+body{
+	text-align: center;
+	background-color: black;
+	color: grey;
+	
+}
+
+.container {
+    margin-top: 7%;
+    background-color: cornflowerblue;
+    border: 1px solid navajowhite;
+    width: 90%;
+    margin-left: 5%;
+    height: 550px; 
+    display: block;
+}
+
+.wrapper {
+	margin-top: 7%;
+	font-family: 'Bitter', serif;
+	color: black;
+}
+ h1{
+ 	font-size: 35px;
+ }
+
+ #quotes {
+ 	margin-top: 5%;
+ 	margin-left: 5%;
+ 	border: 0.5px solid grey;
+ 	width:90%;
+ 	font-family: 'Gloria Hallelujah', cursive;
+ 	font-style: bold;
+ 	font-size: 17px;
+ 	height:250px;
+ 	display: block;
+ }
